@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-mongoose.connect("mongodb+srv://subalkundu3:zsCa4gcKCBC4DbUA@cluster0.il9x56g.mongodb.net/paytm")
+mongoose.connect("mongodb+srv://subalkundu3:zsCa4gcKCBC4DbUA@cluster0.il9x56g.mongodb.net/pay-app")
 
 const UserSchema = new Schema({
     firstName:String,
